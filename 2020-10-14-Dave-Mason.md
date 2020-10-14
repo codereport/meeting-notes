@@ -31,6 +31,9 @@ scan: aBlock
       -\⍳5
 1 ¯1 2 ¯2 3
 ```
+* Dave pointed out why `scan` is implemented in terms of `foldRight` which leads to O(n^2)
+
+> Ken was a purist. `reduce` is the visual equivalent of place `+` or `-` in between (aka `over` or `across`) all of the elements in an array. The purity of maintaining this idea is what leads to this implementation and suboptimal performance.
 
 ### Previous To Do:
 
