@@ -8,7 +8,7 @@
 
 * [q's over](https://code.kx.com/q4m3/A_Built-in_Functions/#a66-over)
 
-### Mentioned:
+### Discussion:
 
 * Talked about my APL `scan_left_fold_right_wtf`
 * Collection of blocks to mimic pattern matching
