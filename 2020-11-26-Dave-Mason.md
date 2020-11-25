@@ -11,6 +11,10 @@
 
 * Mentioned PharoDays should be online
 
+Problems to do:
+* https://github.com/codereport/LeetCode/blob/master/0212_Problem_1.cpp
+* https://leetcode.com/contest/weekly-contest-216/problems/check-if-two-string-arrays-are-equivalent/
+
 * `:>` implementation ... added to Object Class
 * refactoring findLucky, maxConsecutiveOnes
 * implemented maxDepth
