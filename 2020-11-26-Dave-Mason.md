@@ -9,34 +9,38 @@
 
 ### Discussion:
 
-* Mentioned PharoDays should be online
+* CP8310 is a go (Mason will be advisor)
+* Posted to Pharo Discord about PharoDays online
+* They replied that ESUG videos are all online: https://www.youtube.com/user/esugboard
 
-Problems to do:
-* https://github.com/codereport/LeetCode/blob/master/0212_Problem_1.cpp
-* https://leetcode.com/contest/weekly-contest-216/problems/check-if-two-string-arrays-are-equivalent/
-
-* `:>` implementation ... added to Object Class
-* refactoring findLucky, maxConsecutiveOnes
-* implemented maxDepth
+* refactoring uniqueOccurrences, countNegatives, countLargestGroup
+* fixed maxDepth
 
 ```smalltalk
-findLucky
-	^ self frequencies 
-	    :> keysAndValuesRemove: #~~
-	    :> keys 
-	    :> inject: -1 into: #max:.
+uniqueOccurrences
+   ^ self frequencies
+       :> values 
+       :> isUnique.
 
-maxConsecutiveOnes
-  ^ self groupByRuns: [ :e | e == 1 ] 
-      :> collect: #sumNumbers
-      :> max.
+countNegatives
+   ^ self flattened
+       :> select: #negative
+       :> size.
 
-"this is actually broken"
+countLargestGroup
+   ^ self iota 
+       :> collect: #digitSum
+       :> frequencies
+       :> values 
+       :> frequencies 
+       :> values
+       :> last.
+       
 maxDepth
   ^ self select:  [ :e | '()' includes: e ]
       :> collect: [ :e | e == $( ifTrue: 1 ifFalse: -1 ] as: Array
       :> scan: #+
-      :> max.
+      :> inject 0: into max:.
 ```
 
 ### Previous To Do:
@@ -58,3 +62,4 @@ maxDepth
 * Add Smalltalk impl to YT Video Part 2
 * Try SwitchCase
 * implement groupBy
+* Watch Dr. Mason's [ESUG 2019 talk](https://youtu.be/2d2otdj66dw)
