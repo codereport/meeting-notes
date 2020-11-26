@@ -12,7 +12,6 @@
 * CP8310 is a go (Mason will be advisor)
 * Posted to Pharo Discord about PharoDays online
 * They replied that ESUG videos are all online: https://www.youtube.com/user/esugboard
-
 * refactoring uniqueOccurrences, countNegatives, countLargestGroup
 * fixed maxDepth
 
