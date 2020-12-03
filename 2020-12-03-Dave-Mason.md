@@ -4,11 +4,19 @@
 
 ### Links:
 
-* none yet
+* [Manifest Types](https://en.wikipedia.org/wiki/Manifest_typing)
 
 ### Discussion:
 
 * Ask questions about manifest types. Dr. Mason's talk
+* Woden isn't actual written in Smalltalk (Tagged Smalltalk - adjacent)
+* Then we programed and added to Pharo-Functional
+```st
+combinationsOf:
+combinationsOf:select:
+combinationsOf:collect:
+combinationsOf:select:collect
+```
 
 ### Previous To Do:
 
@@ -20,7 +28,6 @@
 * :x: Try SwitchCase
 * :x: implement groupBy
 * :heavy_check_mark: Watch Dr. Mason's [ESUG 2019 talk](https://youtu.be/2d2otdj66dw)
-* :heavy_plus_sign: Watched follow up [Ronnie Salgado talk on Woden Engine](https://youtu.be/zJAjDSg-nvU)
 
 ### To Do:
 
@@ -31,3 +38,4 @@
 * Add Smalltalk impl to YT Video Part 2
 * Try SwitchCase
 * implement groupBy
+* Watch follow up [Ronnie Salgado talk on Woden Engine](https://youtu.be/zJAjDSg-nvU)
