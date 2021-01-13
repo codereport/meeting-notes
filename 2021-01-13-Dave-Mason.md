@@ -1,6 +1,7 @@
 ### Articles:
 
 * [Typesetting UTF8 APL code with the LaTeX lstlisting package](https://analyzethedatanotthedrivel.org/2011/08/15/typesetting-utf8-apl-code-with-the-latex-lstlisting-package/)
+* [Typesetting APL dialects: a bitter legacy of the 20th century?](https://dl-acm-org.ezproxy.lib.ryerson.ca/doi/10.1145/1088529.1088534)
 
 ### Links:
 
