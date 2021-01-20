@@ -1,10 +1,11 @@
 ### Articles:
 
-* None
+* [Numpy another Iverson Ghost](https://analyzethedatanotthedrivel.org/2018/03/31/numpy-another-iverson-ghost/)
 
 ### Links:
 
-* None
+* [numpy.ravel](https://numpy.org/doc/stable/reference/generated/numpy.ravel.html)
+* [jsource iota](https://github.com/codereport/jsource/blob/a9baedf030464ad77cc820f17ea09dbb3ea728a6/jsrc/v.c#L95)
 
 ### Discussion:
 
