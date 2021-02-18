@@ -1,6 +1,9 @@
 ### Links
 
 * [Array Fire](https://arrayfire.com/)
+   * GitHub: https://github.com/arrayfire/arrayfire
+   * [Performance of ArrayFire JIT Code Generation](https://arrayfire.com/performance-of-arrayfire-jit-code-generation/)
+   * [AMA: Explaining my 750 line compiler+runtime designed to GPU self-host APL](https://news.ycombinator.com/item?id=13797797)
 * [NVIDIA OpenACC](https://en.wikipedia.org/wiki/OpenACC)
 * [APL c](https://web.archive.org/web/20070113063905/http://home.earthlink.net/~swsirlin/aplcc.html)
 * [TAIL Programming Language](http://hiperfit.dk/pdf/HIPERFIT_Dec2014_Dybdal.pdf)
