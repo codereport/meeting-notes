@@ -27,10 +27,10 @@
 ### Code
 
 ```bqn
-(⌽≡⊢) ¨ "racecar"‿"dave" # fork
-(⌽⊸≡) ¨ "racecar"‿"dave" # before
-(≡⟜⌽) ¨ "racecar"‿"dave" # after / hook
-(≡⟜⌽)˜ ¨ "racecar"‿"dave" # after (aka beside in APL) + dup
+(⌽≡⊢)  ¨ "racecar"‿"dave" # monadic fork
+(⌽⊸≡)  ¨ "racecar"‿"dave" # monadic before
+(≡⟜⌽)  ¨ "racecar"‿"dave" # monadic after / hook
+(≡⟜⌽)˜ ¨ "racecar"‿"dave" # dyadic  after (aka beside in APL) + dup
 ```
 
 ### Next Friday (2 away)
