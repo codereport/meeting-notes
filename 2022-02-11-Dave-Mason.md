@@ -1,6 +1,6 @@
 ### Links
 
-* [Introduction to Object-Oriented Programming for COBOL Developers(https://www.microfocus.com/documentation/visual-cobol/vc50/VS2019/GUID-A80CA9E8-7B68-4637-91E9-42078C8C9275.html)
+* [Introduction to Object-Oriented Programming for COBOL Developers](https://www.microfocus.com/documentation/visual-cobol/vc50/VS2019/GUID-A80CA9E8-7B68-4637-91E9-42078C8C9275.html)
 * [GapMinder](https://www.gapminder.org/tools/#$model$markers$line$data$filter$dimensions$country$country$/$in@=usa&=chn&=rus&=nga&=can;;;;;;;;;&chart-type=linechart&url=v1)
 * [Erik Meijer and Gilad Bracha: Dart, Monads, Continuations, and More](https://www.youtube.com/watch?v=QNpKYypLAO8)
 * [Anders Hejlsberg and Lars Bak: TypeScript, JavaScript, and Dart](https://www.youtube.com/watch?v=5AqbCQuK0gM)
