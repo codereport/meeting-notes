@@ -2,8 +2,9 @@
 
 * Zig
 * Nim
+* [Zig vs Nim](https://tjpalmer.github.io/languish/#y=mean&weights=issues%3D1%26pulls%3D1%26stars%3D1%26soQuestions%3D0&names=zig%2Cnim)
 * Jai
-* (Self)[https://selflanguage.org/]
+* [Self](https://selflanguage.org/)
 
 
 ### Combinators
