@@ -2,7 +2,7 @@
 
 |||In APL|In BQN|In Haskell|Bird|Pattern|Smalltalk Keyword|Smalltalk Binary|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|B|m|compose||`(.)`|Bluebird|`a(b(x))` |`x with: a compose: b`|`<*>`|
+|B|m|compose||`(.)`|Bluebird|`a(b(x))` |`x with: a atop: b`|`<*> <\|> <->`|
 |B1|d|atop|atop|`(.:)`|Blackbird|`a(b(x,y))`|`x and: y with: a atop: b`|`<\|>`|
 ||m|||||`a(b(x,x))`|`x dupWith: a atop: b`||
 |S|m|hook|after|`(<*>)`|Starling|`a(x,b(x))`|`x dupWith: a hook: b`|`<*>`|
