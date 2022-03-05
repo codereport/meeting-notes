@@ -19,3 +19,19 @@
 * Violet Backed Starling
 * Zebra Dove
 * Golden Eagle
+
+### Code
+
+```j
+NB. J Code
+   (-: |.) i.5
+0
+   (-: |.) "tacocat"
+(-: |.)"_ _ _"
+   (-: |.) "tacocat"
+(-: |.)"_ _ _"
+   (-: |.) 'tacocat'
+1
+   'god' (-: |.) 'dog'
+1
+```
