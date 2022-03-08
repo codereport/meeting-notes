@@ -66,3 +66,5 @@ ____
 **YEESSSS!!!** I finally found the source of the S' combinator. It IS actually in FP, it is the "combining form" of **infix notation** which is actually the last line of Backus' 85 paper above. I missed it initially because it isn't in bold. Also, very confusingly other papers don't mention infix notation as being a combining form. The FL Manual has a secion of Infix Notation and Precedence separate from Combining Forms and doesn't actually show the version below:
 
 ![image](https://user-images.githubusercontent.com/36027403/157143896-a56b9468-7075-4fd3-b596-cc9b2685142c.png)
+
+Will watch later: [John Backus: Function Level Programming and the FL Language](https://archive.org/details/JohnBack1987)
