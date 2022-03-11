@@ -11,4 +11,5 @@
 
 ### Todo for Next Week
 
-* TBD
+* Fix `1 asNDArray + #(1 2 3) asNDArray`
+* And add tests for ⬆️
