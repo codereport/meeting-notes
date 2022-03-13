@@ -25,8 +25,9 @@
 
 ||Lambda Expression|Bird Name|APL|BQN|Haskell|Other|Introduced|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|I|`λa.a`||Same|Identity|`id`||Sch24|
+|I|`λa.a`|Identity|Same|Identity|`id`||Sch24|
 |K|`λab.a`|Kestrel|Right|Right|`const`||Sch24|
+|KI|`λab.b`|Kite|Left|Left||||
 |S|`λabc.ac(bc)`|Starling||After|`<*>`|Hook (J)|Sch24|
 |B|`λabc.a(bc)`|Bluebird|Atop|Atop|`.`||Cur29|
 |C|`λabc.abc`|Cardinal|Commute|Swap|`flip`|`SWAP` (FORTH)|Cur29|
@@ -34,9 +35,13 @@
 |S'|`λabcd.a(bd)(cd)`|Phoenix|Fork|Fork|`liftA2`|Infix Notation (FP)|Tur79|
 |B1|`λabcd.a(bcd)`|Blackbird|Atop|Atop|`.:`||Cur58|
 |Ψ|`λabcd.a(bc)(bd)`|Psi|Over|Over|`on`||Cur58|
+|E|`λabcde.ab(cde)`|Eagle|||||Smu85|
 |Ê|`λabcdefg.a(bcd)(efg)`|Bald Eagle|||||Smu85|
+|D2|`λabcde.a(bd)(ce)`|Dovekie||Before w/ After|||Smu85|
+|D|`λabcd.ab(cd)`|Dove|Beside|After|||Smu85|
 |🚫|`λabcde.a(bde)(cde)`|_Golden Eagle_|Fork|Fork||Iv89|
-|🚫|`λabc.a(bc)c`|||||backHook (I)|Loc12|
+|🚫|`λabc.a(bc)c`|_Violet Starling_||Before||backHook (I)|Loc12|
+|🚫|`λabcd.a(bc)d`|_Zebra Dove_||Before||||
 
 Note that B1 was called J in Cur58.
 
