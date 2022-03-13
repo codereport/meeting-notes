@@ -1,0 +1,51 @@
+### Links
+
+* [SASL 1972](https://en.wikipedia.org/wiki/SASL_(programming_language))
+* [KRC 1981](https://en.wikipedia.org/wiki/Kent_Recursive_Calculator)
+* [Miranda 1985](https://en.wikipedia.org/wiki/Miranda_(programming_language))
+* [David Turner](https://en.wikipedia.org/wiki/David_Turner_(computer_scientist))
+* [ISWIM](https://en.wikipedia.org/wiki/ISWIM)
+* [Combinatory Logic with Discriminators](https://www.jstor.org/stable/2270850)
+* [A New Implementation Technique for Applicative Languages ](https://courses.grainger.illinois.edu/cs421/sp2011/project/turner-implementation.pdf)
+* [Statistics on Graph Reduction of SASL Programs](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.571.3523&rep=rep1&type=pdf)
+* [SUPER-COMBINATORS: A New Implementation Method for Applicative Languages](https://dl.acm.org/doi/pdf/10.1145/800068.802129?casa_token=TpXImM-x7sIAAAAA:reXCWOfHMcGzQXYPdQqZp192it7GndrNB7fsH_uhQmdPv5e8pMWt94N4-SWLSR_DRkWNDIsSNi9ASw)
+* [Where Did Combinators Come From? Hunting the Story of Moses Schönfinkel? Stephen Wolfram](https://arxiv.org/pdf/2108.08707.pdf)
+
+### History
+
+[Turner set combinators](https://everything2.com/title/Turner+set+combinators) 
+
+![image](https://user-images.githubusercontent.com/36027403/158038287-9fb3ce1f-1597-4de2-86ca-ae6b4a52c3d4.png)
+
+[ANOTHER ALGORITHM FOR BRACKET ABSTRACTION](https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/another-algorithm-for-bracket-abstraction/E307B9FC7178599CE1BEAF0B3388A983)
+
+![image](https://user-images.githubusercontent.com/36027403/158038779-4676ce9a-e7e4-4b67-8ba5-3210e944164e.png)
+
+### Combinator Introductions
+
+||Lambda Expression|Bird Name|APL Name|BQN Name| Other Name|Introduced|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|I|`λa.a`||Same|Identity||Sch24|
+|K|`λab.a`|Kestrel|Right|Right||Sch24|
+|S|`λabc.ac(bc)`|Starling||After|Hook (J)|Sch24|
+|B|`λabc.a(bc)`|Bluebird|Atop|Atop||Cur29|
+|C|`λabc.abc`|Cardinal|Commute|Swap|`flip` (Haskell)|Cur29|
+|W|`λab.abb`|Warbler|Self(ie)|Self|Dup (FORTH)|Cur29|
+|S'|`λabcd.a(bd)(cd)`|Phoenix|Fork|Fork|Infix Notation (FP)|Tur79|
+|B1|`λabcd.a(bcd)`|Blackbird|Atop|Atop|`.:` (Haskell)|Cur58|
+|Ψ|`λabcd.a(bc)(bd)`|Psi|Over|Over|`on` (Haskell)|Cur58|
+|Ê|`λabcdefg.a(bcd)(efg)`|Bald Eagle||||Smu85|
+|🚫|`λabcde.a(bde)(cde)`|_Golden Eagle_|Fork|Fork|Iv89|
+|🚫|`λabc.a(bc)c`||||backHook (I)|Loc12|
+
+Note that B1 was called J in Cur58.
+
+||Author|Paper Name|Year|
+|:-:|:-:|:-:|:-:|
+|Sch24|Moses Schönfinkel|[On the building blocks of mathematical logic](https://link.springer.com/article/10.1007/BF01448013)|1924|
+|Cur29|Haskell Curry|[An Analysis of Logical Substitution](https://www.jstor.org/stable/2370728)|1929|
+|Cur58|H. Curry & R. Feys|[Combinatory Logic: Volume I](https://www.amazon.com/Combinatory-Logic-Studies-Foundations-Mathematics/dp/B001FVK0AS)|1958|
+|Tur79|David Turner|[Another algorithm for bracket abstraction](https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/another-algorithm-for-bracket-abstraction/E307B9FC7178599CE1BEAF0B3388A983)|1979|
+|Smu85|Raymond Smullyan|[To Mock a Mockingbird](https://books.google.ca/books?id=wklinRKAIgQC&dq)|1985|
+|Iv89|K. Iversion & E. McDonnell|[Phrasal Forms](https://www.jsoftware.com/papers/fork1.htm)|1989|
+|Loc12|Marshall Lochbaum|[Added hook, backhook](https://github.com/mlochbaum/ILanguage/commit/e3215a658b2315ded6b859229bcd4a90de780a83)|2012|
