@@ -39,7 +39,7 @@
 |Ê|`λabcdefg.a(bcd)(efg)`|Bald Eagle|||||Smu85|
 |D2|`λabcde.a(bd)(ce)`|Dovekie||Before w/ After|||Smu85|
 |D|`λabcd.ab(cd)`|Dove|Beside|After|||Smu85|
-|🚫|`λabcde.a(bde)(cde)`|_Golden Eagle_|Fork|Fork||Iv89|
+|🚫|`λabcde.a(bde)(cde)`|_Golden Eagle_|Fork|Fork|||Iv89|
 |🚫|`λabc.a(bc)c`|_Violet Starling_||Before||backHook (I)|Loc12|
 |🚫|`λabcd.a(bc)d`|_Zebra Dove_||Before||||
 
