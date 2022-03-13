@@ -23,20 +23,20 @@
 
 ### Combinator Introductions
 
-||Lambda Expression|Bird Name|APL Name|BQN Name| Other Name|Introduced|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|I|`λa.a`||Same|Identity||Sch24|
-|K|`λab.a`|Kestrel|Right|Right||Sch24|
-|S|`λabc.ac(bc)`|Starling||After|Hook (J)|Sch24|
-|B|`λabc.a(bc)`|Bluebird|Atop|Atop||Cur29|
-|C|`λabc.abc`|Cardinal|Commute|Swap|`flip` (Haskell)|Cur29|
-|W|`λab.abb`|Warbler|Self(ie)|Self|Dup (FORTH)|Cur29|
-|S'|`λabcd.a(bd)(cd)`|Phoenix|Fork|Fork|Infix Notation (FP)|Tur79|
-|B1|`λabcd.a(bcd)`|Blackbird|Atop|Atop|`.:` (Haskell)|Cur58|
-|Ψ|`λabcd.a(bc)(bd)`|Psi|Over|Over|`on` (Haskell)|Cur58|
-|Ê|`λabcdefg.a(bcd)(efg)`|Bald Eagle||||Smu85|
-|🚫|`λabcde.a(bde)(cde)`|_Golden Eagle_|Fork|Fork|Iv89|
-|🚫|`λabc.a(bc)c`||||backHook (I)|Loc12|
+||Lambda Expression|Bird Name|APL|BQN|Haskell|Other|Introduced|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|I|`λa.a`||Same|Identity|`id`||Sch24|
+|K|`λab.a`|Kestrel|Right|Right|`const`||Sch24|
+|S|`λabc.ac(bc)`|Starling||After|`<*>`|Hook (J)|Sch24|
+|B|`λabc.a(bc)`|Bluebird|Atop|Atop|`.`||Cur29|
+|C|`λabc.abc`|Cardinal|Commute|Swap|`flip`||Cur29|
+|W|`λab.abb`|Warbler|Self(ie)|Self|`join`|`DUP` (FORTH)|Cur29|
+|S'|`λabcd.a(bd)(cd)`|Phoenix|Fork|Fork|`liftA2`|Infix Notation (FP)|Tur79|
+|B1|`λabcd.a(bcd)`|Blackbird|Atop|Atop|`.:`||Cur58|
+|Ψ|`λabcd.a(bc)(bd)`|Psi|Over|Over|`on`||Cur58|
+|Ê|`λabcdefg.a(bcd)(efg)`|Bald Eagle|||||Smu85|
+|🚫|`λabcde.a(bde)(cde)`|_Golden Eagle_|Fork|Fork||Iv89|
+|🚫|`λabc.a(bc)c`|||||backHook (I)|Loc12|
 
 Note that B1 was called J in Cur58.
 
