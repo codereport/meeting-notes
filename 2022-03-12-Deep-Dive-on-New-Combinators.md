@@ -52,5 +52,5 @@ Note that B1 was called J in Cur58.
 |Cur58|H. Curry & R. Feys|[Combinatory Logic: Volume I](https://www.amazon.com/Combinatory-Logic-Studies-Foundations-Mathematics/dp/B001FVK0AS)|1958|
 |Tur79|David Turner|[Another algorithm for bracket abstraction](https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/another-algorithm-for-bracket-abstraction/E307B9FC7178599CE1BEAF0B3388A983)|1979|
 |Smu85|Raymond Smullyan|[To Mock a Mockingbird](https://books.google.ca/books?id=wklinRKAIgQC&dq)|1985|
-|Iv89|K. Iversion & E. McDonnell|[Phrasal Forms](https://www.jsoftware.com/papers/fork1.htm)|1989|
+|Iv89|K. Iverson & E. McDonnell|[Phrasal Forms](https://www.jsoftware.com/papers/fork1.htm)|1989|
 |Loc12|Marshall Lochbaum|[Added hook, backhook](https://github.com/mlochbaum/ILanguage/commit/e3215a658b2315ded6b859229bcd4a90de780a83)|2012|
