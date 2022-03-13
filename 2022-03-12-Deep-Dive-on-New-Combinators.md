@@ -29,7 +29,7 @@
 |K|`λab.a`|Kestrel|Right|Right|`const`||Sch24|
 |S|`λabc.ac(bc)`|Starling||After|`<*>`|Hook (J)|Sch24|
 |B|`λabc.a(bc)`|Bluebird|Atop|Atop|`.`||Cur29|
-|C|`λabc.abc`|Cardinal|Commute|Swap|`flip`||Cur29|
+|C|`λabc.abc`|Cardinal|Commute|Swap|`flip`|`SWAP` (FORTH)|Cur29|
 |W|`λab.abb`|Warbler|Self(ie)|Self|`join`|`DUP` (FORTH)|Cur29|
 |S'|`λabcd.a(bd)(cd)`|Phoenix|Fork|Fork|`liftA2`|Infix Notation (FP)|Tur79|
 |B1|`λabcd.a(bcd)`|Blackbird|Atop|Atop|`.:`||Cur58|
