@@ -42,7 +42,7 @@
 |🚫|`λabcde.a(bde)(cde)`|_Golden Eagle_|Fork|Fork|||Iv89|
 |🚫|`λabc.a(bc)c`|_Violet Starling_||Before||backHook (I)|Loc12|
 |🚫|`λabcd.a(bc)d`|_Zebra Dove_||Before||||
-|🚫|`λabcd.a(bcd)e`|_Harpy Eagle_||||||
+|🚫|`λabcde.a(bcd)e`|_Harpy Eagle_||||||
 
 Note that B1 was called J in Cur58.
 
