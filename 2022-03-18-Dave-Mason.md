@@ -12,6 +12,23 @@
 * https://llvm.org/docs/CompileCudaWithLLVM.html
 * https://www.tiobe.com/tiobe-index/
 
+### Code
+
+```hs
+Prelude Data.Composition> ((4-) .: (+)) 3 10
+-9
+Prelude Data.Composition> ((4-) .: (+)) 2 5
+-3
+Prelude Data.Composition> ((4*) .: (+)) 2 5
+28
+Prelude Data.Composition> ((+) <*> (2*)) 10
+30
+Prelude Data.Composition> ((==) <*> reverse) "tacocat"
+True
+Prelude Data.Composition> ((==) <*> reverse) [1,2,1]
+True
+```
+
 ### Random Notes
 
 PhD. Late April, 10 spots - 4 taken. 
