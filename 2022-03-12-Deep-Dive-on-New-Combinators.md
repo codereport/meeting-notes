@@ -29,8 +29,8 @@
 |K|`λab.a`|Kestrel|Right|Right|`const`||Sch24|
 |KI|`λab.b`|Kite|Left|Left||||
 |S|`λabc.ac(bc)`|Starling||After|`<*>`|Hook (J)|Sch24|
-|B|`λabc.a(bc)`|Bluebird|Atop|Atop|`.`||Cur29|
-|C|`λabc.acb`|Cardinal|Commute|Swap|`flip`|`SWAP` (FORTH)|Cur29|
+|B|`λabc.a(bc)`|Bluebird|Atop|Atop|`.`||Sch24|
+|C|`λabc.acb`|Cardinal|Commute|Swap|`flip`|`SWAP` (FORTH)|Sch24|
 |W|`λab.abb`|Warbler|Self(ie)|Self|`join`|`DUP` (FORTH)|Cur29|
 |B1|`λabcd.a(bcd)`|Blackbird|Atop|Atop|`.:`||Cur58|
 |Ψ|`λabcd.a(bc)(bd)`|Psi|Over|Over|`on`||Cur58|
