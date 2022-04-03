@@ -32,9 +32,9 @@
 |B|`λabc.a(bc)`|Bluebird|Atop|Atop|`.`||Sch24|
 |C|`λabc.acb`|Cardinal|Commute|Swap|`flip`|`SWAP` (FORTH)|Sch24|
 |W|`λab.abb`|Warbler|Self(ie)|Self|`join`|`DUP` (FORTH)|Cur29|
-|B1|`λabcd.a(bcd)`|Blackbird|Atop|Atop|`.:`||Cur58|
+|Φ|`λabcd.a(bd)(cd)`|Phoenix|Fork|Fork|`liftA2`|Infix Notation (FP)|Cur31|
 |Ψ|`λabcd.a(bc)(bd)`|Psi|Over|Over|`on`||Cur58|
-|Φ (S')|`λabcd.a(bd)(cd)`|Phoenix|Fork|Fork|`liftA2`|Infix Notation (FP)|Tur79|
+|B1|`λabcd.a(bcd)`|Blackbird|Atop|Atop|`.:`||Cur58|
 |E|`λabcde.ab(cde)`|Eagle|||||Smu85|
 |Ê|`λabcdefg.a(bcd)(efg)`|Bald Eagle|||||Smu85|
 |D2|`λabcde.a(bd)(ce)`|Dovekie||Before w/ After|||Smu85|
@@ -50,6 +50,7 @@ Note that B1 was called J in Cur58.
 |:-:|:-:|:-:|:-:|
 |Sch24|Moses Schönfinkel|[On the building blocks of mathematical logic](https://link.springer.com/article/10.1007/BF01448013)|1924|
 |Cur29|Haskell Curry|[An Analysis of Logical Substitution](https://www.jstor.org/stable/2370728)|1929|
+|Cur31|Haskell Curry|[The universal quantifier in combinatory logic](https://www.jstor.org/stable/1968422)|1931|
 |Cur58|H. Curry & R. Feys|[Combinatory Logic: Volume I](https://www.amazon.com/Combinatory-Logic-Studies-Foundations-Mathematics/dp/B001FVK0AS)|1958|
 |Tur79|David Turner|[Another algorithm for bracket abstraction](https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/another-algorithm-for-bracket-abstraction/E307B9FC7178599CE1BEAF0B3388A983)|1979|
 |Smu85|Raymond Smullyan|[To Mock a Mockingbird](https://books.google.ca/books?id=wklinRKAIgQC&dq)|1985|
