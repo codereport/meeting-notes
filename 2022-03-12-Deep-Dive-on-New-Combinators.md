@@ -34,7 +34,7 @@
 |W|`λab.abb`|Warbler|Self(ie)|Self|`join`|`DUP` (FORTH)|Cur29|
 |B1|`λabcd.a(bcd)`|Blackbird|Atop|Atop|`.:`||Cur58|
 |Ψ|`λabcd.a(bc)(bd)`|Psi|Over|Over|`on`||Cur58|
-|S'|`λabcd.a(bd)(cd)`|Phoenix|Fork|Fork|`liftA2`|Infix Notation (FP)|Tur79|
+|Φ (S')|`λabcd.a(bd)(cd)`|Phoenix|Fork|Fork|`liftA2`|Infix Notation (FP)|Tur79|
 |E|`λabcde.ab(cde)`|Eagle|||||Smu85|
 |Ê|`λabcdefg.a(bcd)(efg)`|Bald Eagle|||||Smu85|
 |D2|`λabcde.a(bd)(ce)`|Dovekie||Before w/ After|||Smu85|
