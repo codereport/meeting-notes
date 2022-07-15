@@ -48,7 +48,7 @@
 |:-:|:-:|:-:|:-:|
 |Sch24|Moses Schönfinkel|[On the building blocks of mathematical logic](https://link.springer.com/article/10.1007/BF01448013)|1924|
 |Cur29|Haskell Curry|[An Analysis of Logical Substitution](https://www.jstor.org/stable/2370728)|1929|
-|Cur30|Haskell Curry|[Grundlagen der Kombinatorischen Logik (The Foundations of Combinatory Logic)](https://www.jstor.org/stable/2370716)|
+|Cur30|Haskell Curry|[Grundlagen der Kombinatorischen Logik (The Foundations of Combinatory Logic)](https://www.jstor.org/stable/2370716)|1931|
 |Cur31|Haskell Curry|[The universal quantifier in combinatory logic](https://www.jstor.org/stable/1968422)|1931|
 |Cur48|Haskell Curry|[A Simplification of the Theory of Combinators](https://www.jstor.org/stable/20114069)|1949|
 |Cur58|H. Curry & R. Feys|[Combinatory Logic: Volume I](https://www.amazon.com/Combinatory-Logic-Studies-Foundations-Mathematics/dp/B001FVK0AS)|1958|
